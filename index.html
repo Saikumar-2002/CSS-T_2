@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Pricing Table</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Pricing Plans</h1>
+    <button id="pricing-toggle">Switch to Yearly</button>
+  </header>
+
+  <section class="pricing-table">
+    <div class="plan" id="basic">
+      <h2>Basic</h2>
+      <p class="price monthly">$10/month</p>
+      <p class="price yearly">$100/year</p>
+      <ul>
+        <li title="Feature 1"><span>✔</span> Feature 1</li>
+        <li title="Feature 2"><span>✔</span> Feature 2</li>
+        <li title="Feature 3"><span>✔</span> Feature 3</li>
+      </ul>
+      <button>Subscribe</button>
+    </div>
+
+    <div class="plan popular" id="standard">
+      <div class="ribbon">Most Popular</div>
+      <h2>Standard</h2>
+      <p class="price monthly">$20/month</p>
+      <p class="price yearly">$200/year</p>
+      <ul>
+        <li title="Feature A"><span>✔</span> Feature A</li>
+        <li title="Feature B"><span>✔</span> Feature B</li>
+        <li title="Feature C"><span>✔</span> Feature C</li>
+      </ul>
+      <button>Subscribe</button>
+    </div>
+
+    <div class="plan" id="premium">
+      <h2>Premium</h2>
+      <p class="price monthly">$30/month</p>
+      <p class="price yearly">$300/year</p>
+      <ul>
+        <li title="Feature X"><span>✔</span> Feature X</li>
+        <li title="Feature Y"><span>✔</span> Feature Y</li>
+        <li title="Feature Z"><span>✔</span> Feature Z</li>
+      </ul>
+      <button>Subscribe</button>
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <h2>What Our Customers Say</h2>
+    <div class="slider">
+      <div class="slide">"Great service at an unbeatable price!" - Customer 1</div>
+      <div class="slide">"The Standard plan was perfect for my needs." - Customer 2</div>
+      <div class="slide">"I love the Premium features!" - Customer 3</div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
